@@ -101,7 +101,7 @@ color:#fff;
 .header-extradiv{
 	width:100%;
 	height: auto;
-	margin: 70px 0px;
+	margin: 40px 0px;
 	text-align: center;
 
 }
@@ -238,5 +238,51 @@ font-size: 1.5rem;
 .box p{
 	position: absolute;
 	top:50px;
+
+}
+
+
+
+
+.formma{
+	margin: 100px 0px 0px 0px ;
+	width: 100%;
+	height:100vh;
+	padding: 100px 0px;
+	position: relative;
+}
+.form-control{
+	margin: 12px 0px;
+	border-radius: 30px!important;
+}
+.textsp{
+	border-radius: 10px!important;
+}
+
+.btn{ font-weight: 600!important;
+
+    background-color:#fff!important;
+       color:#50d1c0!important;
+	border-radius:40px!important;
+	width: 110px!important;
+	border:1px solid #50d1c0!important;
+}
+.btn:hover{
+	background-color:#50d1c0!important;
+	color:#fff!important;
+	box-shadow: box-shadow: 0 0 20px 0 rgba(0,0,0,0.3)!important;
+}
+	
+.formma:before{
+	content: "";
+	position:absolute;
+	top:0%;
+	bottom: 0%;
+	right: 0%;
+	left:0%;
+	
+	z-index: -1;
+	background: linear-gradient(330deg,#16c9f6 55%,#fff 0%);
+	
 
 }
