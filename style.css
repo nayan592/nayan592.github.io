@@ -392,7 +392,9 @@ background: black;
 	overflow: hidden;
 }
 /************************************88footer*************************/
+.pip{
+	margin-top: 70px ;
+	background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%, #16c9f6 100%);
+	width: 101%;	height: auto;
 
-.gras{
-	margin-top: 70px;
 }
