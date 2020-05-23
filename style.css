@@ -127,7 +127,7 @@ color:#fff;
 .extra-div:hover{
 	
 box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-transform: translateY(-30px);
+transform: translateY(-20px);
  }
  .serviceicon a{
  	margin:50px 0px!important;
@@ -188,8 +188,8 @@ transform: translateY(-30px);
 
 /****************prising***********************************/
 .prising{
-	height: auto;
-	width:100%;
+	height:100vh!important;
+	
 	height:auto;
  margin-bottom: 60px;
  position: relative;
@@ -198,7 +198,7 @@ transform: translateY(-30px);
 }
 .prising h1{
 	margin: 60px 0px;
-	padding-top: 60px;
+	padding-top: 80px;
 }
 .prising:before{
 	content: "";
@@ -209,7 +209,7 @@ transform: translateY(-30px);
 	left:0%;
 	
 	z-index: -1;
-	background: linear-gradient(160deg,#16c9f6 55%,#fff 0%);
+	background: linear-gradient(20deg,#16c9f6 55%,#fff 0%);
 	
 
 }
@@ -235,13 +235,14 @@ transform: translateY(-30px);
 	border-radius: 100px!important;
 	transition: .5s;
 
+
 }
 .card:hover{
  box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
   transform: translateY(-20px);
 }
 .card{
-
+  
 	transition: .3s;
 }
 /*******************************************caerd khtm********************/
@@ -276,7 +277,7 @@ font-size: 1.5rem;
 .formma{
 	margin: 100px 0px 0px 0px ;
 	width: 100%;
-	height:100vh;
+	height:90vh;
 	padding: 100px 0px;
 	position: relative;
 }
@@ -393,8 +394,63 @@ background: black;
 }
 /************************************88footer*************************/
 .pip{
-	margin-top: 70px ;
+	margin-top: 30px ;
+	padding-top: 20px;
 	background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%, #16c9f6 100%);
-	width: 101%;	height: auto;
+	height: auto;
+	width:100%;
+	margin-right: 0px!important;
+	margin-left: 0px!important; 
+}
+.nava h3{
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight:570;
 
+}
+
+.nava li{
+	list-style: none;
+	font-weight: bold;
+
+}
+.nava a{
+	text-decoration: none!important;
+}
+
+.nava ul{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.copy{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: block;
+	background:blue;
+	margin: 10px 0px 0px 0px!important;
+}
+
+
+
+/******************about navodaya******************************/
+
+.abti{
+	width: 100%;
+	height:100%;
+}
+.abti img{
+	width:100%;
+	height: auto;
+
+}
+.abtp{
+	text-align: left;
+	font-size: 1.2rem;
+	text-transform: lowercase;
+	font-weight: 400;
 }
