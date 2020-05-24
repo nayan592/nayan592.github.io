@@ -37,7 +37,7 @@ html{
 	left:0%;
 	opacity: .7;
 	z-index: -1;
-	background:rgb(236, 142, 224);
+ background:rgb(236, 142, 224);
 	
 
  }
@@ -113,6 +113,8 @@ color:#fff;
 	padding:50px!important;
 	border-radius: 3px;
 	transition: .3s;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+
 
 
 }
@@ -126,7 +128,7 @@ color:#fff;
 }
 .extra-div:hover{
 	
-box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+box-shadow: 0 0 0 0 rgba(0,0,0,0);
 transform: translateY(-20px);
  }
  .serviceicon a{
@@ -134,12 +136,13 @@ transform: translateY(-20px);
  }
 
 .service{
-	background: #f7f7f9;
-	padding:50px 0px;
-	margin-bottom: 50px:;
+	
+	padding-top: 50px!important;
+	margin-bottom: 0px!important;
+	
 }
-.headings{
-	font-size: 1.5rem;
+.headings h1{
+	font-size: 1.7rem;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -153,16 +156,19 @@ transform: translateY(-20px);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 30px;
+	
+}
+.serviceicon i{
+	color: crimson;
 }
 .sericetext p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px 0px;
+	
 }
 .sericetext {
-	padding:60px 0px!important;
+	padding-top:60px!important; 
 }
 .progress{
 	height: 0.6rem!important;
@@ -174,8 +180,7 @@ transform: translateY(-20px);
 	text-transform: uppercase;
 }
 .project{
-	margin: 100px 0px;
-
+	margin: 10px 0px;
 }
 .project h2{
 	font-size: 1.8rem;
@@ -371,8 +376,9 @@ transition: .5s;
 }
 .nava h3{
 	text-align: center;
-	font-size: 1.4rem;
-	font-weight:570;
+	font-size: 1.3rem;
+	font-weight:550;
+	text-transform:unset;
 
 }
 
@@ -380,9 +386,15 @@ transition: .5s;
 	list-style: none;
 	font-weight: bold;
 
+
 }
 .nava a{
 	text-decoration: none!important;
+	color: #fff!important;
+}
+
+.nava a:hover{
+	color: #567!important;
 }
 
 .nava ul{
@@ -398,7 +410,7 @@ transition: .5s;
 	justify-content: center;
 	align-items: center;
 	display: block;
-	background:blue;
+	background:rgba(95, 101, 187, 0.363);
 	margin: 10px 0px 0px 0px!important;
 }
 
@@ -414,10 +426,59 @@ transition: .5s;
 	width:100%;
 	height: auto;
 
+
+}
+.abt h1{
+	font-weight: bold;
+	font-size: 1.7rem;
 }
 .abtp{
-	text-align: left;
-	font-size: 1.2rem;
+	text-align: center;
+	font-size: 1rem;
 	text-transform: lowercase;
 	font-weight: 400;
+}
+.abt{
+	padding-top: 50px!important;
+	margin: 30px 0px;
+}
+.carousel{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.xx{
+	padding-top: 60px;
+}
+.abhi p,.abtp p{
+	font-size: 19px;
+	text-transform: lowercase;
+	font-weight: 400;
+	text-align: center;
+}
+
+.scrolltop{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	width: 43px;
+	height: 43px;
+	z-index: 99;
+	padding-top: 7px;
+	padding-left: 7px;
+	border-radius: 50%;
+border: none;
+background: #e62739!important;
+box-shadow: none;
+color: #fff!important;
+outline: none;
+cursor: pointer;
+}
+
+.scrolltop i{
+	color: #fff!important;
+  
+}
+.sb{
+	margin-top: 30px;
+	padding-left: 30px;
 }
