@@ -351,6 +351,10 @@ transition: .5s;
 	padding-top: 120px!important;
 
 }
+
+
+
+
 .team img{
 	width: 88%;
 	height: 82%;
@@ -516,7 +520,15 @@ cursor: pointer;
 	list-style:none;
 	padding-top: 7px;
 }
-n
+
 .naja li{
 	margin-top: 5px;
+}
+
+.navbar-brand img{
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	margin-right: 15px;
+
 }
